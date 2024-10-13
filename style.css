@@ -1,0 +1,76 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+    background: #FFEFD5;
+} 
+
+body {
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+} 
+
+h1 {
+    text-align: center;
+    color: #af9e8d;
+    padding: 15px;
+    font-family: "Comic Neue", cursive;
+}
+
+ #loadImagesBtn {
+     position: static;
+    font-size: 20px;
+    font-family: "Comic Neue", cursive;
+    color: #8B4513;
+    background: #DEB887;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid #DEB887 1px;
+    cursor: pointer;
+     z-index: 1000; 
+}
+
+#removeImagesBtn {
+    position: static; 
+    font-size: 20px;
+    font-family: "Comic Neue", cursive;
+    color: #DEB887;
+    background: #8B4513;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid #DEB887 1px;
+    cursor: pointer;
+     z-index: 1000;
+} 
+
+header {
+    text-align: center; /* Центрируем заголовок, если нужно */
+    margin-bottom: 20px; /* Отступ от заголовка до кнопок */
+  }
+  
+  .button-wrapper {
+    text-align: center;
+    margin: 5px; /* Центрируем кнопки под заголовком */
+  }
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #DEB887;
+    border-radius: 55px;
+    overflow: hidden;
+} 
+
+  .gallery-container img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+  }
